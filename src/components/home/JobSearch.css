@@ -1,0 +1,83 @@
+.searchjob {
+  display: flex;
+  gap: 20px;
+  padding: 32px 20px 22px 30px;
+  background: #fff;
+  border: 1px solid #ecedf2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+.right{
+  position: relative;
+}
+
+.bookmark{
+  position: absolute;
+  right: -200px;
+  z-index: 50;
+  top: 10px;
+  height: 20px;
+  width: 30px;
+  /* line-height: 35px; */
+  text-align: center;
+  /* font-size: 14px; */
+  /* border-radius: 50%; */
+  cursor: pointer;
+  /* background: #fff; */
+  transition: all .3s ease;
+}
+
+
+
+.right h1 {
+  color: #202124;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+.list {
+  display: flex;
+  gap: 5px;
+}
+.text,
+.icon {
+    font-size: 14px;
+    /* line-height: 22px; */
+    color: dimgray;
+    font-weight: 400;
+    margin-bottom: 5px;
+    /* margin-right: 20px; */
+}
+
+.box{
+    /* position: relative; */
+    display: inline-block;
+   
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 15px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.fir{
+    background: rgba(25,103,210,.15);
+    color: blue;
+}
+
+
+.sec{
+    background: rgba(52,168,83,.15);
+    color: #34a853
+}
+.thir{
+    background: rgba(249,171,0,.15);
+    color: #F9BA6C
+}
